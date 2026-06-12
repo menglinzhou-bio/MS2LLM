@@ -1,0 +1,17 @@
+model_path: /public/home/daiqinliang/project_csh/new_model
+
+train_question: /public/home/daiqinliang/project_csh/第三次训练-按照分子划分/数据/train_question.json
+train_answer: /public/home/daiqinliang/project_csh/第三次训练-按照分子划分/数据/train_answer.json
+
+val_question: /public/home/daiqinliang/project_csh/第三次训练-按照分子划分/数据/val_question.json
+val_answer: /public/home/daiqinliang/project_csh/第三次训练-按照分子划分/数据/val_answer.json
+
+output_dir: /public/home/daiqinliang/project_csh/checkpoints_accelerate_third_train_按照分子
+log_dir: /public/home/daiqinliang/project_csh/train_log_8gpu_third_train_按照分子
+
+max_epochs: 5
+batch_size: 3
+num_workers: 4
+devices: 8
+learning_rate: 3e-4
+max_length: 2048

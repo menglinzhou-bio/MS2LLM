@@ -1,0 +1,10 @@
+base_model: /public/home/daiqinliang/project_csh/new_model
+lora_path: /public/home/daiqinliang/project_csh/checkpoints_accelerate_third_train_按照分子/lora_epoch5
+test_path: /public/home/daiqinliang/project_csh/第三次训练-按照分子划分/推理-小数据集/test_10k_unique_question.json
+output_dir: /public/home/daiqinliang/project_csh/第三次训练-按照分子-推理/8402
+
+batch_size: 4
+max_length: 2048
+max_new_tokens: 300
+use_sampling: false
+torch_dtype: float16
