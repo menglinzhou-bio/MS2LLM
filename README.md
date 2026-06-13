@@ -26,6 +26,8 @@ MS2LLM
 ## Installation
 Install dependencies:
 ```bash
+git clone https://github.com/menglinzhou-bio/MS2LLM.git
+cd MS2LLM
 pip install -r requirements.txt
 ```
 Main dependencies:
