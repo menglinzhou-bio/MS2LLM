@@ -30,15 +30,6 @@ git clone https://github.com/menglinzhou-bio/MS2LLM.git
 cd MS2LLM
 pip install -r requirements.txt
 ```
-Main dependencies:
-- torch
-- transformers
-- peft
-- pytorch-lightning
-- safetensors
-- tqdm
-- PyYAML
-
 ## Training
 Training configurations are stored in:
 
