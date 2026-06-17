@@ -74,3 +74,9 @@ Due to storage limitations, model checkpoints, training datasets, and benchmark 
 
 Example input and output files are provided in the `examples/` directory.
 
+## Model Weights
+
+The trained MS2LLM LoRA adapter is available at:
+
+https://huggingface.co/menglinzhou/MS2LLM-8B-LoRA
+
